@@ -7,21 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9181224A2A176486002B22B5 /* IOSTakeHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918122492A176486002B22B5 /* IOSTakeHomeTests.swift */; };
+		918122522A176507002B22B5 /* JSONMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918122512A176507002B22B5 /* JSONMapperTests.swift */; };
+		918122552A176DBA002B22B5 /* CreateFormValidatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918122542A176DBA002B22B5 /* CreateFormValidatorTest.swift */; };
+		918122592A17788B002B22B5 /* NetworkingEndPointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918122582A17788B002B22B5 /* NetworkingEndPointTests.swift */; };
+		9181225C2A177B21002B22B5 /* MockURLSesssionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9181225B2A177B21002B22B5 /* MockURLSesssionProtocol.swift */; };
+		9181225F2A177ECC002B22B5 /* NetworkingManangerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9181225E2A177ECC002B22B5 /* NetworkingManangerTests.swift */; };
+		918122622A17DCB5002B22B5 /* PeopleViewModelSuccessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918122612A17DCB5002B22B5 /* PeopleViewModelSuccessTests.swift */; };
+		918122642A17DF67002B22B5 /* NetworkingManagerUserResponseSuccessMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918122632A17DF67002B22B5 /* NetworkingManagerUserResponseSuccessMock.swift */; };
 		919BC22B2A0C420E00EA56DD /* IOSTakeHomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919BC22A2A0C420E00EA56DD /* IOSTakeHomeApp.swift */; };
-		919BC22D2A0C420E00EA56DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919BC22C2A0C420E00EA56DD /* ContentView.swift */; };
 		919BC22F2A0C421000EA56DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919BC22E2A0C421000EA56DD /* Assets.xcassets */; };
 		919BC2322A0C421000EA56DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919BC2312A0C421000EA56DD /* Preview Assets.xcassets */; };
+		919BC23A2A0C430A00EA56DD /* symobols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919BC2392A0C430A00EA56DD /* symobols.swift */; };
+		919BC23C2A0C457900EA56DD /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919BC23B2A0C457900EA56DD /* Theme.swift */; };
+		919BC2502A0E2D8E00EA56DD /* UsersStaticData.json in Resources */ = {isa = PBXBuildFile; fileRef = 919BC24F2A0E2D8E00EA56DD /* UsersStaticData.json */; };
+		919BC2522A0E2DE100EA56DD /* SingleUserData.json in Resources */ = {isa = PBXBuildFile; fileRef = 919BC2512A0E2DE100EA56DD /* SingleUserData.json */; };
+		919BC2542A0E2FE200EA56DD /* UserDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919BC2532A0E2FE200EA56DD /* UserDetailResponse.swift */; };
+		919BC2562A0E304500EA56DD /* UsersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919BC2552A0E304500EA56DD /* UsersResponse.swift */; };
+		919BC25A2A0E319B00EA56DD /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919BC2592A0E319B00EA56DD /* Models.swift */; };
+		919BC25D2A0E324B00EA56DD /* StaticJSONMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919BC25C2A0E324B00EA56DD /* StaticJSONMapper.swift */; };
+		919BC25F2A0E427200EA56DD /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919BC25E2A0E427200EA56DD /* PeopleView.swift */; };
+		919BC2612A0E7D6C00EA56DD /* PersonItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919BC2602A0E7D6C00EA56DD /* PersonItemView.swift */; };
+		919BC2642A0E7F6100EA56DD /* PillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919BC2632A0E7F6100EA56DD /* PillView.swift */; };
+		919BC2662A0E88BC00EA56DD /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919BC2652A0E88BC00EA56DD /* DetailView.swift */; };
+		919BC2682A0FA08000EA56DD /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919BC2672A0FA08000EA56DD /* CreateView.swift */; };
+		919BC26B2A0FA8E900EA56DD /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919BC26A2A0FA8E900EA56DD /* NetworkingManager.swift */; };
+		919BC26D2A0FB14F00EA56DD /* PeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919BC26C2A0FB14F00EA56DD /* PeopleViewModel.swift */; };
+		919BC26F2A0FBD9F00EA56DD /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919BC26E2A0FBD9F00EA56DD /* DetailViewModel.swift */; };
+		919BC2712A0FC35D00EA56DD /* NewPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919BC2702A0FC35D00EA56DD /* NewPerson.swift */; };
+		919BC2732A0FC3FB00EA56DD /* CreateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919BC2722A0FC3FB00EA56DD /* CreateViewModel.swift */; };
+		919BC2752A0FE64100EA56DD /* CheckmarkPopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919BC2742A0FE64100EA56DD /* CheckmarkPopoverView.swift */; };
+		919BC2782A1014AE00EA56DD /* CreateValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919BC2772A1014AE00EA56DD /* CreateValidator.swift */; };
+		919BC27B2A11912200EA56DD /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919BC27A2A11912200EA56DD /* SettingView.swift */; };
+		919BC27D2A1191C300EA56DD /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919BC27C2A1191C300EA56DD /* HapticsManager.swift */; };
+		919BC27F2A11948500EA56DD /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919BC27E2A11948500EA56DD /* EndPoint.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		9181224B2A176486002B22B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 919BC21F2A0C420E00EA56DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 919BC2262A0C420E00EA56DD;
+			remoteInfo = IOSTakeHome;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		918122472A176486002B22B5 /* IOSTakeHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSTakeHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		918122492A176486002B22B5 /* IOSTakeHomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSTakeHomeTests.swift; sourceTree = "<group>"; };
+		918122512A176507002B22B5 /* JSONMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONMapperTests.swift; sourceTree = "<group>"; };
+		918122542A176DBA002B22B5 /* CreateFormValidatorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFormValidatorTest.swift; sourceTree = "<group>"; };
+		918122582A17788B002B22B5 /* NetworkingEndPointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingEndPointTests.swift; sourceTree = "<group>"; };
+		9181225B2A177B21002B22B5 /* MockURLSesssionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLSesssionProtocol.swift; sourceTree = "<group>"; };
+		9181225E2A177ECC002B22B5 /* NetworkingManangerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManangerTests.swift; sourceTree = "<group>"; };
+		918122612A17DCB5002B22B5 /* PeopleViewModelSuccessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewModelSuccessTests.swift; sourceTree = "<group>"; };
+		918122632A17DF67002B22B5 /* NetworkingManagerUserResponseSuccessMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManagerUserResponseSuccessMock.swift; sourceTree = "<group>"; };
 		919BC2272A0C420E00EA56DD /* IOSTakeHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSTakeHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		919BC22A2A0C420E00EA56DD /* IOSTakeHomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSTakeHomeApp.swift; sourceTree = "<group>"; };
-		919BC22C2A0C420E00EA56DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		919BC22E2A0C421000EA56DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		919BC2312A0C421000EA56DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		919BC2392A0C430A00EA56DD /* symobols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symobols.swift; sourceTree = "<group>"; };
+		919BC23B2A0C457900EA56DD /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		919BC24D2A0C49B000EA56DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		919BC24F2A0E2D8E00EA56DD /* UsersStaticData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UsersStaticData.json; sourceTree = "<group>"; };
+		919BC2512A0E2DE100EA56DD /* SingleUserData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SingleUserData.json; sourceTree = "<group>"; };
+		919BC2532A0E2FE200EA56DD /* UserDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailResponse.swift; sourceTree = "<group>"; };
+		919BC2552A0E304500EA56DD /* UsersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersResponse.swift; sourceTree = "<group>"; };
+		919BC2592A0E319B00EA56DD /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		919BC25C2A0E324B00EA56DD /* StaticJSONMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticJSONMapper.swift; sourceTree = "<group>"; };
+		919BC25E2A0E427200EA56DD /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
+		919BC2602A0E7D6C00EA56DD /* PersonItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonItemView.swift; sourceTree = "<group>"; };
+		919BC2632A0E7F6100EA56DD /* PillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillView.swift; sourceTree = "<group>"; };
+		919BC2652A0E88BC00EA56DD /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		919BC2672A0FA08000EA56DD /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		919BC26A2A0FA8E900EA56DD /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		919BC26C2A0FB14F00EA56DD /* PeopleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewModel.swift; sourceTree = "<group>"; };
+		919BC26E2A0FBD9F00EA56DD /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		919BC2702A0FC35D00EA56DD /* NewPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPerson.swift; sourceTree = "<group>"; };
+		919BC2722A0FC3FB00EA56DD /* CreateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewModel.swift; sourceTree = "<group>"; };
+		919BC2742A0FE64100EA56DD /* CheckmarkPopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckmarkPopoverView.swift; sourceTree = "<group>"; };
+		919BC2772A1014AE00EA56DD /* CreateValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateValidator.swift; sourceTree = "<group>"; };
+		919BC27A2A11912200EA56DD /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingView.swift; path = IOSTakeHome/Features/Create/Validator/SettingView.swift; sourceTree = SOURCE_ROOT; };
+		919BC27C2A1191C300EA56DD /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		919BC27E2A11948500EA56DD /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		918122442A176486002B22B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		919BC2242A0C420E00EA56DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -32,10 +111,82 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		918122482A176486002B22B5 /* IOSTakeHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				918122602A17DC72002B22B5 /* People */,
+				918122562A177848002B22B5 /* Networking */,
+				918122532A176D8C002B22B5 /* Form */,
+				918122502A1764F6002B22B5 /* Mapper */,
+				918122492A176486002B22B5 /* IOSTakeHomeTests.swift */,
+			);
+			path = IOSTakeHomeTests;
+			sourceTree = "<group>";
+		};
+		918122502A1764F6002B22B5 /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				918122512A176507002B22B5 /* JSONMapperTests.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		918122532A176D8C002B22B5 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				918122542A176DBA002B22B5 /* CreateFormValidatorTest.swift */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		918122562A177848002B22B5 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9181225D2A177EAC002B22B5 /* NetworkingManager */,
+				9181225A2A177AF7002B22B5 /* Mocks */,
+				918122572A17785F002B22B5 /* Endpoint */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		918122572A17785F002B22B5 /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				918122582A17788B002B22B5 /* NetworkingEndPointTests.swift */,
+			);
+			path = Endpoint;
+			sourceTree = "<group>";
+		};
+		9181225A2A177AF7002B22B5 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				9181225B2A177B21002B22B5 /* MockURLSesssionProtocol.swift */,
+				918122632A17DF67002B22B5 /* NetworkingManagerUserResponseSuccessMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		9181225D2A177EAC002B22B5 /* NetworkingManager */ = {
+			isa = PBXGroup;
+			children = (
+				9181225E2A177ECC002B22B5 /* NetworkingManangerTests.swift */,
+			);
+			path = NetworkingManager;
+			sourceTree = "<group>";
+		};
+		918122602A17DC72002B22B5 /* People */ = {
+			isa = PBXGroup;
+			children = (
+				918122612A17DCB5002B22B5 /* PeopleViewModelSuccessTests.swift */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
 		919BC21E2A0C420E00EA56DD = {
 			isa = PBXGroup;
 			children = (
 				919BC2292A0C420E00EA56DD /* IOSTakeHome */,
+				918122482A176486002B22B5 /* IOSTakeHomeTests */,
 				919BC2282A0C420E00EA56DD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				919BC2272A0C420E00EA56DD /* IOSTakeHome.app */,
+				918122472A176486002B22B5 /* IOSTakeHomeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +203,11 @@
 		919BC2292A0C420E00EA56DD /* IOSTakeHome */ = {
 			isa = PBXGroup;
 			children = (
+				919BC2572A0E316E00EA56DD /* Base */,
+				919BC24D2A0C49B000EA56DD /* Info.plist */,
+				919BC23D2A0C46C800EA56DD /* Features */,
+				919BC2382A0C42FA00EA56DD /* Resources */,
 				919BC22A2A0C420E00EA56DD /* IOSTakeHomeApp.swift */,
-				919BC22C2A0C420E00EA56DD /* ContentView.swift */,
 				919BC22E2A0C421000EA56DD /* Assets.xcassets */,
 				919BC2302A0C421000EA56DD /* Preview Content */,
 			);
@@ -67,9 +222,231 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		919BC2382A0C42FA00EA56DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				919BC24E2A0E2CE000EA56DD /* JSON */,
+				919BC2392A0C430A00EA56DD /* symobols.swift */,
+				919BC23B2A0C457900EA56DD /* Theme.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		919BC23D2A0C46C800EA56DD /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				919BC2412A0C46F300EA56DD /* Detail */,
+				919BC2402A0C46F100EA56DD /* Create */,
+				919BC23F2A0C46EE00EA56DD /* People */,
+				919BC23E2A0C46D600EA56DD /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		919BC23E2A0C46D600EA56DD /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				919BC2792A11911300EA56DD /* Views */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		919BC23F2A0C46EE00EA56DD /* People */ = {
+			isa = PBXGroup;
+			children = (
+				919BC2442A0C475800EA56DD /* Views */,
+				919BC2432A0C474600EA56DD /* ViewModels */,
+				919BC2422A0C473500EA56DD /* Models */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		919BC2402A0C46F100EA56DD /* Create */ = {
+			isa = PBXGroup;
+			children = (
+				919BC2762A10148F00EA56DD /* Validator */,
+				919BC2472A0C479400EA56DD /* Views */,
+				919BC2462A0C479200EA56DD /* Models */,
+				919BC2452A0C478F00EA56DD /* ViewModels */,
+			);
+			path = Create;
+			sourceTree = "<group>";
+		};
+		919BC2412A0C46F300EA56DD /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				919BC2482A0C47F000EA56DD /* Models */,
+				919BC24A2A0C47F000EA56DD /* ViewModels */,
+				919BC2492A0C47F000EA56DD /* Views */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		919BC2422A0C473500EA56DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				919BC2552A0E304500EA56DD /* UsersResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		919BC2432A0C474600EA56DD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				919BC26C2A0FB14F00EA56DD /* PeopleViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		919BC2442A0C475800EA56DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				919BC25E2A0E427200EA56DD /* PeopleView.swift */,
+				919BC2602A0E7D6C00EA56DD /* PersonItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		919BC2452A0C478F00EA56DD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				919BC2722A0FC3FB00EA56DD /* CreateViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		919BC2462A0C479200EA56DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				919BC2702A0FC35D00EA56DD /* NewPerson.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		919BC2472A0C479400EA56DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				919BC2672A0FA08000EA56DD /* CreateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		919BC2482A0C47F000EA56DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				919BC2532A0E2FE200EA56DD /* UserDetailResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		919BC2492A0C47F000EA56DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				919BC2652A0E88BC00EA56DD /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		919BC24A2A0C47F000EA56DD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				919BC26E2A0FBD9F00EA56DD /* DetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		919BC24E2A0E2CE000EA56DD /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				919BC24F2A0E2D8E00EA56DD /* UsersStaticData.json */,
+				919BC2512A0E2DE100EA56DD /* SingleUserData.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		919BC2572A0E316E00EA56DD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				919BC2692A0FA8AE00EA56DD /* API */,
+				919BC2622A0E7F4A00EA56DD /* Views */,
+				919BC25B2A0E322F00EA56DD /* Mapper */,
+				919BC2582A0E318500EA56DD /* Models */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		919BC2582A0E318500EA56DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				919BC2592A0E319B00EA56DD /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		919BC25B2A0E322F00EA56DD /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				919BC25C2A0E324B00EA56DD /* StaticJSONMapper.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		919BC2622A0E7F4A00EA56DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				919BC2632A0E7F6100EA56DD /* PillView.swift */,
+				919BC2742A0FE64100EA56DD /* CheckmarkPopoverView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		919BC2692A0FA8AE00EA56DD /* API */ = {
+			isa = PBXGroup;
+			children = (
+				919BC26A2A0FA8E900EA56DD /* NetworkingManager.swift */,
+				919BC27C2A1191C300EA56DD /* HapticsManager.swift */,
+				919BC27E2A11948500EA56DD /* EndPoint.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		919BC2762A10148F00EA56DD /* Validator */ = {
+			isa = PBXGroup;
+			children = (
+				919BC2772A1014AE00EA56DD /* CreateValidator.swift */,
+			);
+			path = Validator;
+			sourceTree = "<group>";
+		};
+		919BC2792A11911300EA56DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				919BC27A2A11912200EA56DD /* SettingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		918122462A176486002B22B5 /* IOSTakeHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9181224F2A176486002B22B5 /* Build configuration list for PBXNativeTarget "IOSTakeHomeTests" */;
+			buildPhases = (
+				918122432A176486002B22B5 /* Sources */,
+				918122442A176486002B22B5 /* Frameworks */,
+				918122452A176486002B22B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9181224C2A176486002B22B5 /* PBXTargetDependency */,
+			);
+			name = IOSTakeHomeTests;
+			productName = IOSTakeHomeTests;
+			productReference = 918122472A176486002B22B5 /* IOSTakeHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		919BC2262A0C420E00EA56DD /* IOSTakeHome */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 919BC2352A0C421000EA56DD /* Build configuration list for PBXNativeTarget "IOSTakeHome" */;
@@ -97,6 +474,10 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					918122462A176486002B22B5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 919BC2262A0C420E00EA56DD;
+					};
 					919BC2262A0C420E00EA56DD = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -116,16 +497,26 @@
 			projectRoot = "";
 			targets = (
 				919BC2262A0C420E00EA56DD /* IOSTakeHome */,
+				918122462A176486002B22B5 /* IOSTakeHomeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		918122452A176486002B22B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		919BC2252A0C420E00EA56DD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				919BC2322A0C421000EA56DD /* Preview Assets.xcassets in Resources */,
+				919BC2522A0E2DE100EA56DD /* SingleUserData.json in Resources */,
+				919BC2502A0E2D8E00EA56DD /* UsersStaticData.json in Resources */,
 				919BC22F2A0C421000EA56DD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -133,18 +524,97 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		918122432A176486002B22B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9181225C2A177B21002B22B5 /* MockURLSesssionProtocol.swift in Sources */,
+				918122592A17788B002B22B5 /* NetworkingEndPointTests.swift in Sources */,
+				9181225F2A177ECC002B22B5 /* NetworkingManangerTests.swift in Sources */,
+				918122622A17DCB5002B22B5 /* PeopleViewModelSuccessTests.swift in Sources */,
+				918122522A176507002B22B5 /* JSONMapperTests.swift in Sources */,
+				918122642A17DF67002B22B5 /* NetworkingManagerUserResponseSuccessMock.swift in Sources */,
+				9181224A2A176486002B22B5 /* IOSTakeHomeTests.swift in Sources */,
+				918122552A176DBA002B22B5 /* CreateFormValidatorTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		919BC2232A0C420E00EA56DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				919BC22D2A0C420E00EA56DD /* ContentView.swift in Sources */,
+				919BC2752A0FE64100EA56DD /* CheckmarkPopoverView.swift in Sources */,
+				919BC27B2A11912200EA56DD /* SettingView.swift in Sources */,
+				919BC25D2A0E324B00EA56DD /* StaticJSONMapper.swift in Sources */,
+				919BC2642A0E7F6100EA56DD /* PillView.swift in Sources */,
+				919BC27F2A11948500EA56DD /* EndPoint.swift in Sources */,
+				919BC25F2A0E427200EA56DD /* PeopleView.swift in Sources */,
+				919BC2732A0FC3FB00EA56DD /* CreateViewModel.swift in Sources */,
+				919BC23C2A0C457900EA56DD /* Theme.swift in Sources */,
 				919BC22B2A0C420E00EA56DD /* IOSTakeHomeApp.swift in Sources */,
+				919BC2662A0E88BC00EA56DD /* DetailView.swift in Sources */,
+				919BC27D2A1191C300EA56DD /* HapticsManager.swift in Sources */,
+				919BC2542A0E2FE200EA56DD /* UserDetailResponse.swift in Sources */,
+				919BC23A2A0C430A00EA56DD /* symobols.swift in Sources */,
+				919BC26B2A0FA8E900EA56DD /* NetworkingManager.swift in Sources */,
+				919BC2562A0E304500EA56DD /* UsersResponse.swift in Sources */,
+				919BC2612A0E7D6C00EA56DD /* PersonItemView.swift in Sources */,
+				919BC2712A0FC35D00EA56DD /* NewPerson.swift in Sources */,
+				919BC26D2A0FB14F00EA56DD /* PeopleViewModel.swift in Sources */,
+				919BC2682A0FA08000EA56DD /* CreateView.swift in Sources */,
+				919BC2782A1014AE00EA56DD /* CreateValidator.swift in Sources */,
+				919BC26F2A0FBD9F00EA56DD /* DetailViewModel.swift in Sources */,
+				919BC25A2A0E319B00EA56DD /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		9181224C2A176486002B22B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 919BC2262A0C420E00EA56DD /* IOSTakeHome */;
+			targetProxy = 9181224B2A176486002B22B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		9181224D2A176486002B22B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4BN656YUMX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarek.IOSTakeHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOSTakeHome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IOSTakeHome";
+			};
+			name = Debug;
+		};
+		9181224E2A176486002B22B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4BN656YUMX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarek.IOSTakeHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOSTakeHome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IOSTakeHome";
+			};
+			name = Release;
+		};
 		919BC2332A0C421000EA56DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -270,9 +740,9 @@
 				DEVELOPMENT_TEAM = 4BN656YUMX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IOSTakeHome/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,9 +769,9 @@
 				DEVELOPMENT_TEAM = 4BN656YUMX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IOSTakeHome/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,6 +790,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9181224F2A176486002B22B5 /* Build configuration list for PBXNativeTarget "IOSTakeHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9181224D2A176486002B22B5 /* Debug */,
+				9181224E2A176486002B22B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		919BC2222A0C420E00EA56DD /* Build configuration list for PBXProject "IOSTakeHome" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
